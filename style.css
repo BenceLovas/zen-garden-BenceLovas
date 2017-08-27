@@ -11,24 +11,15 @@
 :root {
     --color-darkgrey: #353535;
     --color-grey: rgba(71, 71, 71, 0.7);
-    /* --color-magenta: #e6195d; */
     --color-magenta: #1aaa65;
-    /* --color-magenta-transp: rgba(230, 25, 93, 0.5); */
     --color-magenta-transp: rgba(26, 170, 101, 0.5);
-
-
     --color-lightgrey: #a8a7a7;
-    /* --color-yellow: #e6195d; */
     --color-yellow: #1aaa65;
     --color-yellow-old: #FFB310;
-    /* --color-aqua: #43aca7; */
-    /* --color-aqua: #ff3c00; */
     --color-aqua: #327552;
     --color-almost-black: #212121;
 
-
     --font-roboto: "Roboto", sans-serif;
-    
 }
 
 body {
@@ -47,12 +38,6 @@ p {
 abbr {
     cursor: help;
 }
-
-
-
-
-
-
 
 /* intro */
 
@@ -73,7 +58,6 @@ div.main-hader {
 .intro header {
     background-color: var(--color-darkgrey);
 }
-
 
 .summary {
     background-color: var(--color-darkgrey);
@@ -132,7 +116,6 @@ header h2 abbr {
     transition: text-shadow 1s;
 }
 
-
 header h2 abbr:hover {
     text-shadow: 1px 1px 1px var(--color-magenta-transp);
 }
@@ -175,7 +158,6 @@ header h2 abbr:hover {
     font-family: var(--font-roboto);
 }
 
-
 .road-to h3 span {
     display: inline;
     background-color: var(--color-yellow);
@@ -217,15 +199,6 @@ header h2 abbr:hover {
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
 }
-
-
-
-
-
-
-
-
-
 
 /* main */
 
@@ -280,29 +253,14 @@ header h2 abbr:hover {
 
 .main img {
     float: left;
-    padding: 3px;
-    background-color: white;
-    border-radius: 100%;
     z-index: 1;
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    padding-top: 4px;
+    height: 100%;
     cursor: pointer;
     vertical-align: middle;
     margin-right: 10px;
 } 
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* sidebar */
 
@@ -369,7 +327,6 @@ aside span.sidebar-header h3 img {
     padding: 4% 2%;
 }
 
-
 ul a:not(.designer-name) {
     color: var(--color-yellow);
     text-decoration: none;
@@ -405,7 +362,6 @@ a.designer-name {
     float: left;
     margin-right: 20px;
 }
-
 
 /* footer */
 
